@@ -1,29 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '@/components/PaginaPrincipal.vue'
-import VideoUnico from '@/components/VideoUnico.vue'
-import ImagemDiversas from '@/components/ImagemDiversas.vue'
-import TabelaUnica from '@/components/TabelaUnica.vue'
+
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: import('../components/PaginaPrincipal.vue')
   },
   {
     path:'/videos',
     name:'videos',
-    component: VideoUnico
+    component: import('../components/VideoUnico.vue')
   },
   {
     path:'/imagens',
     name:'imagens',
-    component: ImagemDiversas
+    component: import('../components/ImagemDiversas.vue')
   },
   {
     path:'/tabela',
     name:'tabela',
-    component:TabelaUnica
+    component:import('../components/TabelaUnica.vue')
   }
 ]
 
