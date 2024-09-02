@@ -18,6 +18,17 @@
         <img class="" src="@/assets/gatolaranja.jpg" width="60%">
       </div>
 
+      <div>
+        <img class="" src="@/assets/barra1.jpg" width="60%">
+      </div>
+
+      <div>
+        <img class="" src="@/assets/barra2.jpg" width="60%">
+      </div>
+
+      <div>
+        <img class="" src="@/assets/barra3.jpg" width="60%">
+      </div>
 
     </div>
   </template>
