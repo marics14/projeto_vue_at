@@ -7,27 +7,27 @@
 
       </p>
       <div>
-        <img class="" src="@/assets/gatosiames.webp" width="60%">
+        <img class="" src="@/assets/gatosiames.webp" loading="lazy" width="60%">
       </div>
 
       <div>
-        <img class="" src="@/assets/gatoragdoll.webp" width="60%">
+        <img class="" src="@/assets/gatoragdoll.webp" loading="lazy" width="60%">
       </div>
 
       <div>
-        <img class="" src="@/assets/gatolaranja.jpg" width="60%">
+        <img class="" src="@/assets/gatolaranja.jpg"  loading="lazy" width="60%">
       </div>
 
       <div>
-        <img class="" src="@/assets/barra1.jpg" width="60%">
+        <img class="" src="@/assets/barra1.jpg" loading="lazy" width="60%">
       </div>
 
       <div>
-        <img class="" src="@/assets/barra2.jpg" width="60%">
+        <img class="" src="@/assets/barra2.jpg" loading="lazy" width="60%">
       </div>
 
       <div>
-        <img class="" src="@/assets/barra3.jpg" width="60%">
+        <img class="" src="@/assets/barra3.jpg" loading="lazy" width="60%">
       </div>
 
     </div>
