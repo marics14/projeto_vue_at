@@ -7,7 +7,9 @@
 
       </p>
       <div>
-        <img class="" src="@/assets/gatosiames.webp" loading="lazy" width="60%">
+        <img class="" src="@/assets/gatosiames.webp" loading="lazy" width="60%"> 
+        <!-- <img srcset="@/assets/gatosiames-small.webp 600w, @/assets/gatosiames-medium.webp 1200w, @/assets/gatosiames-large.webp 1800w" 
+sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" src="@/assets/gatosiames.webp" loading="lazy" width="60%"> -->
       </div>
 
       <div>
@@ -46,4 +48,8 @@
   <style scoped>
   
   </style>
+
+<img srcset="@/assets/gatosiames-small.webp 600w, @/assets/gatosiames-medium.webp 1200w, @/assets/gatosiames-large.webp 1800w" 
+sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" src="@/assets/gatosiames-medium.webp" loading="lazy" width="60%">
+
   
